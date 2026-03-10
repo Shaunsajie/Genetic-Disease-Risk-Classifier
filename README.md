@@ -1,4 +1,3 @@
-# Genetic-Disease-Risk-Classifier
 # 🧬 Genetic Disease Risk Classifier
 
 A **Machine Learning project** that predicts the risk of genetic diseases using genomic dataset features.
