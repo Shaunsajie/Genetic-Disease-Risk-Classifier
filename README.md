@@ -7,7 +7,7 @@ This project demonstrates **data preprocessing, classification models, explainab
 
 ---
 
-## 🚀 Project Overview
+# 🚀 Project Overview
 
 Early detection of genetic diseases can significantly improve healthcare outcomes.
 This project uses **machine learning techniques** to analyze genetic data and classify the disease category.
@@ -25,7 +25,7 @@ The model is trained on a dataset containing **five genetic diseases**, and it p
 
 ---
 
-## 🧠 Diseases Predicted
+# 🧠 Diseases Predicted
 
 The model predicts the following **five diseases**:
 
@@ -39,7 +39,7 @@ The model predicts the following **five diseases**:
 
 ---
 
-## 🤖 Machine Learning Models Used
+# 🤖 Machine Learning Models Used
 
 The following models were implemented and evaluated:
 
@@ -56,7 +56,7 @@ The following models were implemented and evaluated:
 
 ---
 
-## 📊 Explainable AI
+# 📊 Explainable AI
 
 To interpret the model’s predictions, the project uses:
 
@@ -70,7 +70,7 @@ This helps identify:
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
 * Python
 * Pandas
@@ -84,37 +84,58 @@ This helps identify:
 
 ---
 
-## 📂 Project Structure
+# 📊 Dataset
+
+The dataset used for this project is stored in **Google Drive** and accessed through **Google Colab** to avoid re-uploading the dataset every time the notebook runs.
+
+### Dataset Link
+
+https://drive.google.com/file/d/1I4LO_uka4z0CfE54fCsZ0eI0YDxqUzrg/view?usp=sharing
+
+### Accessing Dataset in Google Colab
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+file_path = "/content/drive/MyDrive/thefinalboss/genetic_disease_dataset.csv"
+data = pd.read_csv(file_path)
+```
+
+> Note: The dataset is not included in this GitHub repository and is accessed through Google Drive.
+
+---
+
+# 📂 Project Structure
 
 ```
 Genetic-Disease-Risk-Classifier
 │
 ├── genetic_disease_prediction.ipynb
 ├── README.md
-├── requirements.txt
-└── dataset.csv
+└── requirements.txt
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/Shaunsajie/Genetic-Disease-Risk-Classifier.git
 cd Genetic-Disease-Risk-Classifier
 ```
 
 Install dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Running the Project
+# ▶️ Running the Project
 
 Open the notebook in **Google Colab or Jupyter Notebook** and run all cells:
 
@@ -131,7 +152,7 @@ This will:
 
 ---
 
-## 🌐 Interactive Prediction Interface
+# 🌐 Interactive Prediction Interface
 
 A **Gradio interface** is implemented to allow users to input genetic parameters and receive **real-time disease predictions**.
 
@@ -139,13 +160,13 @@ This demonstrates how machine learning models can be converted into **interactiv
 
 ---
 
-## 🎓 Academic Context
+# 🎓 Academic Context
 
 This project was developed as part of **B.Tech in Artificial Intelligence & Data Science** coursework focusing on **AI applications in healthcare and genetic disease prediction**.
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 Possible enhancements include:
 
@@ -156,7 +177,7 @@ Possible enhancements include:
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Shaun Saji**
 B.Tech – Artificial Intelligence & Data Science
